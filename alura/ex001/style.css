@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.principal {
+    background-color: lightgray;
+    padding: 30px;
+}
+
+p {
+    text-align: center ;
+    padding: 0px 10px 0px 10px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
