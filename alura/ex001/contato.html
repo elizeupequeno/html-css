@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos-Barbearia Lero</title>
+    <title>Contato-Barbearia Lero</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,26 +28,21 @@
         </div>
     </header>
     <main>
-        <ul class="produtos">
-            <li>
-                <h2>cabelo</h2>
-                <img src="imagens/cabelo.jpg" alt="imagem cabelo">
-                <p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
-                <p class="produto-preco">R$ 25,00</p>
-            </li>
-            <li>
-                <h2>barba</h2>
-                <img src="imagens/barba.jpg" alt="imagem barba">
-                <p class="produto-descricao">Corte e desnho proficional de barba</p>
-                <p class="produto-preco">R$ 18,00</p>
-            </li>
-            <li>
-                <h2>cabelo+barba</h2>
-                <img src="imagens/cabelo+barba.jpg" alt="cabelo e barba">
-                <p class="produto-descricao">Pacote completo de cabelo e berba</p>
-                <p class="produto-preco">R$ 35,00</p>
-            </li>
-        </ul>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome">
+
+            <label for="email">email</label>
+            <input type="text" id="email">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+            <label for="mensagem">mensagem</label>
+            <textarea name="" id="mensagem" cols="70" rows="10"></textarea>
+
+            <input type="submit" value="enviar formulário">
+
+        </form>
     </main>
     <footer>
         <img src="imagens/logo-branco.png" alt="logo">
