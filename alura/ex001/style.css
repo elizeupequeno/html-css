@@ -136,5 +136,23 @@ form label, form legend {
 
 .enviar:hover {
     background: darkorange;
+    transform: scale(1.1);
 }
+
+table {
+    margin: 20px 0px 40px 0px;
+}
+
+thead {
+    background-color: #555;
+    color: #fff;
+    font-weight: bold;
+}
+
+td,th {
+    border: 1px solid black;
+    padding: 15px 8px;
+}
+
+
 
